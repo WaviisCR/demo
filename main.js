@@ -7,4 +7,4 @@ function mostrarMenu(){
        document.getElementById("menu").style.height = "0px";      
     clic = 1;
    }   
-}
+};
