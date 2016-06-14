@@ -13,11 +13,57 @@
 	opacity: .8;
 }
 
-#menu{
-	width: 100%;
-	margin: auto;
+#menu, #aside{
+	width: 95%;
 	height: 0px;
-	background: #000;
-	box-shadow: 10px 10px 3px #D8D8D8;
+	box-shadow: 6px 8px 3px #D8D8D8;
 	transition: height .4s;
+}
+.list-box{
+	background-color:mediumpurple;
+	width:100%;
+	margin:0px;
+}
+ul{
+	list-style: none;
+}
+li{
+	text-decoration:none;
+}
+
+#menu{
+	background-color:blueviolet;
+}
+#aside{
+	background-color:deeppink;
+	display:none;
+	width:90%;
+	height:15em;
+	padding:2%;
+}
+ul{
+	margin:2%;
+	padding:1%;
+}
+li{
+	width:95%;
+	background-color:pink;
+	margin:2%;
+}
+p{
+	display:inline;
+	margin:1%;
+}
+.img{
+	display:inline;
+	margin:2%;
+	padding:2%;
+}
+button{
+	display:inline;
+	cursor: pointer;
+	margin:1%;
+}
+.btn-back{
+	margin:3%;
 }

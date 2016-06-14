@@ -7,9 +7,39 @@
 		<link href="main.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="boton" onclick="mostrarMenu()"> Mostrar/Ocultar
-		</div>
-		<div id="menu">
+		<div id="bodybox" class="bodybox">
+			<div id="headerbox" class="headerbox" role="navigation">
+				<div id="boton" onclick="mostrarMenu()"> Menu
+				</div>
+				<div id="menu">
+				</div>
+			</div>
+			<div id="aside" class="aside">
+				<div class="img"><img src="" alt="thumbnail" class="thumbnail"></div>
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur  impedit, ducimus? Adipisci voluptatibus iste unde autem reiciendis?Lorem ipsum dolor sit amet, consectetur  impedit, ducimus? Adipisci voluptatibus iste unde autem reiciendis?</p>
+				</div>
+				<button class="btn-back" onclick="mostrarAside()">Back!</button>
+			</div>
+			<div id="list-box" class="list-box">
+				<ul>
+					<li>
+						<div class="img"><img src="" alt="thumbnail" class="thumbnail"></div>
+						<p>Lorem ipsum dolor sit amet, consectetur impedit, ducimus? Adipisci voluptatibus iste unde autem reiciendis?</p>
+						<button onclick="mostrarAside()">Action!</button>
+					</li>
+					<li>
+						<div class="img"><img src="" alt="thumbnail" class="thumbnail"></div>
+						<p>Lorem ipsum dolor sit amet, consectetur impedit, ducimus? Adipisci voluptatibus iste unde autem reiciendis?</p>
+						<button onclick="mostrarAside()">Action!</button>
+					</li>
+					<li>
+						<div class="img"><img src="" alt="thumbnail" class="thumbnail"></div>
+						<p>Lorem ipsum dolor sit amet, consectetur  impedit, ducimus? Adipisci voluptatibus iste unde autem reiciendis?</p>
+						<button onclick="mostrarAside()">Action!</button>
+					</li>
+				</ul>
+			</div>
 		</div>
 		
 	</body>
