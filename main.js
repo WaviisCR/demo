@@ -1,12 +1,12 @@
 var clic = 1;
 function mostrarMenu(){ 
    if(clic==1){
-   $("#menu").style.height = "30em";
-   $("#list-box").style.display = "none";
+   document.getElementById("menu").style.height = "30em";
+   document.getElementById("list-box").style.display = "none";
    clic = clic + 1;
    } else{
-       $("#menu").style.height = "0px";
-       $("#list-box").style.display = "inline";
+       document.getElementById("menu").style.height = "0px";
+       document.getElementById("list-box").style.display = "inline";
       
     clic = 1;
    }   
@@ -15,13 +15,13 @@ function mostrarMenu(){
 var clic = 1;
 function mostrarAside(){ 
    if(clic==1){
-   $("#aside").style.display = "block";
-    $("#list-box").style.display = "none";
+   document.getElementById("aside").style.display = "block";
+      document.getElementById("list-box").style.display = "none";
 
    clic = clic + 1;
    } else{
-       $("#aside").style.display = "none";
-       $("#list-box").style.display = "inline";
+       document.getElementById("aside").style.display = "none";
+       document.getElementById("list-box").style.display = "inline";
 
     clic = 1;
    }   
